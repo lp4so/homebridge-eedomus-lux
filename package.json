@@ -23,19 +23,19 @@
   "_spec": "homebridge-eedomus-lux@latest",
   "_where": "C:\\Windows\\System32",
   "bugs": {
-    "url": "https://github.com/crashtestoz/homebridge-eedomus-lux/issues"
+    "url": "https://github.com/lp4so/homebridge-eedomus-lux/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
     "request": "^2.65.0"
   },
   "deprecated": false,
-  "description": "eedomus light sensor plugin for homebridge. Requires additional hardware.",
+  "description": "eedomus light sensor plugin for homebridge.",
   "engines": {
     "homebridge": ">=0.2.0",
     "node": ">=0.12.0"
   },
-  "homepage": "https://github.com/crashtestoz/homebridge-eedomus-lux#readme",
+  "homepage": "https://github.com/lp4so/homebridge-eedomus-lux#readme",
   "keywords": [
     "homebridge-plugin"
   ],
@@ -44,7 +44,7 @@
   "name": "homebridge-eedomus-lux",
   "repository": {
     "type": "git",
-    "url": "git://github.com/crashtestoz/homebridge-eedomus-lux.git"
+    "url": "git://github.com/lp4so/homebridge-eedomus-lux.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
