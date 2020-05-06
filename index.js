@@ -8,7 +8,7 @@ const DEF_MIN_LUX = 0,
 module.exports = function (homebridge) {
    Service = homebridge.hap.Service;
    Characteristic = homebridge.hap.Characteristic;
-   homebridge.registerAccessory("homebridge-eedomus-lux", "HttpLux", HttpLux);
+   homebridge.registerAccessory("homebridge-eedomus-luxmeter", "HttpLux", HttpLux);
 }
 
 
@@ -19,9 +19,9 @@ function HttpLux(log, config) {
    this.url = config["url"];
    this.http_method = config["http_method"] || "GET";
    this.name = config["name"];
-   this.manufacturer = config["manufacturer"] || "@crashtestoz";
-   this.model = config["model"] || "nodeMCU multi sensor DIY";
-   this.serial = config["serial"] || "20181011";
+   this.manufacturer = config["manufacturer"] || "@lpaso";
+   this.model = config["model"] || "eedomus luxmeter";
+   this.serial = config["serial"] || "20200501";
    this.timeout = config["timeout"] || DEF_TIMEOUT;
    this.minLux = config["min_lux"] || DEF_MIN_LUX;
    this.maxLux = config["max_lux"] || DEF_MAX_LUX;

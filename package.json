@@ -1,16 +1,16 @@
 {
-  "_from": "homebridge-eedomus-lux@latest",
-  "_id": "homebridge-eedomus-lux@0.7.1",
+  "_from": "homebridge-eedomus-luxmeter@latest",
+  "_id": "homebridge-eedomus-luxmeter@0.7.2",
   "_inBundle": false,
   "_integrity": "sha512-kaKK+wrUx9d0BD1RwuewGBvAcwZ/BBUq9s+PbbRXnIBK0V1zGwvxAYe+9YZtKCi1qko09CYzWI7TYNTU7gD0cA==",
-  "_location": "/homebridge-eedomus-lux",
+  "_location": "/homebridge-eedomus-luxmeter",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "homebridge-eedomus-lux@latest",
-    "name": "homebridge-eedomus-lux",
-    "escapedName": "homebridge-eedomus-lux",
+    "raw": "homebridge-eedomus-luxmeter@latest",
+    "name": "homebridge-eedomus-luxmeter",
+    "escapedName": "homebridge-eedomus-luxmeter",
     "rawSpec": "latest",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -18,12 +18,12 @@
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/homebridge-eedomus-lux/-/homebridge-eedomus-lux-0.7.1.tgz",
+  "_resolved": "https://registry.npmjs.org/homebridge-eedomus-luxmeter/-/homebridge-eedomus-luxmeter-0.7.2.tgz",
   "_shasum": "7227bde62abfdd0abde3fdb6e9e389b22951e61f",
-  "_spec": "homebridge-eedomus-lux@latest",
+  "_spec": "homebridge-eedomus-luxmeter@latest",
   "_where": "C:\\Windows\\System32",
   "bugs": {
-    "url": "https://github.com/lp4so/homebridge-eedomus-lux/issues"
+    "url": "https://github.com/lp4so/homebridge-eedomus-luxmeter/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -35,19 +35,19 @@
     "homebridge": ">=0.2.0",
     "node": ">=0.12.0"
   },
-  "homepage": "https://github.com/lp4so/homebridge-eedomus-lux#readme",
+  "homepage": "https://github.com/lp4so/homebridge-eedomus-luxmeter#readme",
   "keywords": [
     "homebridge-plugin"
   ],
   "license": "ISC",
   "main": "index.js",
-  "name": "homebridge-eedomus-lux",
+  "name": "homebridge-eedomus-luxmeter",
   "repository": {
     "type": "git",
-    "url": "git://github.com/lp4so/homebridge-eedomus-lux.git"
+    "url": "git://github.com/lp4so/homebridge-eedomus-luxmeter.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.7.1"
+  "version": "0.7.2"
 }
