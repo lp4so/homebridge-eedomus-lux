@@ -8,7 +8,7 @@ const DEF_MIN_LUX = 0,
 module.exports = function (homebridge) {
    Service = homebridge.hap.Service;
    Characteristic = homebridge.hap.Characteristic;
-   homebridge.registerAccessory("homebridge-http-lux", "HttpLux", HttpLux);
+   homebridge.registerAccessory("homebridge-eedomus-lux", "HttpLux", HttpLux);
 }
 
 
@@ -44,7 +44,7 @@ HttpLux.prototype = {
             this.log('HTTP bad response (' + ops.uri + '): ' + error.message);
          } else {
             try {
-               value = JSON.parse(body).lightlevel;
+               value = JSON.parse(body).body.last_value;
                if (value < this.minLux || value > this.maxLux || isNaN(value)) {
                   throw "Invalid value received";
                }

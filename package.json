@@ -1,27 +1,53 @@
 {
-  "name": "homebridge-http-lux",
-  "version": "0.6.0",
-  "description": "http light sensor plugin for homebridge. Requires additional hardware.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "homebridge-eedomus-lux@latest",
+  "_id": "homebridge-eedomus-lux@0.7.1",
+  "_inBundle": false,
+  "_integrity": "sha512-kaKK+wrUx9d0BD1RwuewGBvAcwZ/BBUq9s+PbbRXnIBK0V1zGwvxAYe+9YZtKCi1qko09CYzWI7TYNTU7gD0cA==",
+  "_location": "/homebridge-eedomus-lux",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "homebridge-eedomus-lux@latest",
+    "name": "homebridge-eedomus-lux",
+    "escapedName": "homebridge-eedomus-lux",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/crashtestoz/homebridge-http-lux.git"
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/homebridge-eedomus-lux/-/homebridge-eedomus-lux-0.7.1.tgz",
+  "_shasum": "7227bde62abfdd0abde3fdb6e9e389b22951e61f",
+  "_spec": "homebridge-eedomus-lux@latest",
+  "_where": "C:\\Windows\\System32",
+  "bugs": {
+    "url": "https://github.com/crashtestoz/homebridge-eedomus-lux/issues"
   },
+  "bundleDependencies": false,
+  "dependencies": {
+    "request": "^2.65.0"
+  },
+  "deprecated": false,
+  "description": "eedomus light sensor plugin for homebridge. Requires additional hardware.",
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
+  },
+  "homepage": "https://github.com/crashtestoz/homebridge-eedomus-lux#readme",
   "keywords": [
     "homebridge-plugin"
   ],
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/crashtestoz/homebridge-http-lux/issues"
+  "main": "index.js",
+  "name": "homebridge-eedomus-lux",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crashtestoz/homebridge-eedomus-lux.git"
   },
-  "engines": {
-    "node": ">=0.12.0",
-    "homebridge": ">=0.2.0"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "request": "^2.65.0"
-  }
+  "version": "0.7.1"
 }
